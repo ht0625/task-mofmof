@@ -55,6 +55,7 @@ class PropertiesController < ApplicationController
 
   def set_property
     @property = Property.find(params[:id])
+    @nearest_stations = @property.nearest_stations
   end
 
   def property_params
