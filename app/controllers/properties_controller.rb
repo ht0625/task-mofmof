@@ -64,9 +64,9 @@ class PropertiesController < ApplicationController
       :age,
       :remarks,
       nearest_stations_attributes:[
-        route:,
-        station:,
-        minutes_walk:,
+        :route,
+        :station,
+        :minutes_walk,
         :id,
         :_destroy,
       ]
