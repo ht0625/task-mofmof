@@ -2,6 +2,7 @@ class Property < ApplicationRecord
   with_options presence: true do
     validates :name
     validates :address
+    validates :remarks
   end
   validates :rent, presence: true, numericality:  { greater_than_or_equal_to: 0 }
   validates :age, presence: true, numericality:  { greater_than_or_equal_to: 0 }
