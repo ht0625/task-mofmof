@@ -69,7 +69,6 @@ class PropertiesController < ApplicationController
         :route,
         :station,
         :minutes_walk,
-        :id,
         :_destroy,
       ]
     )
